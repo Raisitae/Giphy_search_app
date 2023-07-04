@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+}
+
+.main_container {
+  background-color: rgb(200, 250, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.navigator_container {
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+}
+
+.navigator_container-content{
+  height: inherit;
+}
+
+ 
+/* width */
+::-webkit-scrollbar {
+  width: .7rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a9c7a;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e6850;
+  transition: all .3s ease-in-out;
+}

@@ -1,0 +1,7 @@
+.gif_content {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    list-style: none;
+    padding: .5rem;
+}

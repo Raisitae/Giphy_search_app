@@ -1,0 +1,12 @@
+.image_main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    width: inherit;
+    height: 70vh;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
