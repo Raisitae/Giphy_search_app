@@ -5,27 +5,42 @@ body {
 .main_container {
   background-color: rgb(200, 250, 233);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
 }
 
 .navigator_container {
-  padding: 1.5rem;
-  border-radius: 2rem;
-  border: 1px solid rgba(0, 0, 0);
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  /* padding: 1.5rem; */
+  border-radius: 2rem 2rem 0 0;
+  /* border: 1px solid rgba(0, 0, 0);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2); */
   background-color: white;
   display: flex;
   width: 70vw;
   height: 80vh;
+  border-width: 1px 1px 10px 10px;
+  border-color: #333333;
+  border-style: solid;
 }
 
 .navigator_container-content{
   height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
  
+
 /* width */
 ::-webkit-scrollbar {
   width: .7rem;
@@ -46,4 +61,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #0e6850;
   transition: all .3s ease-in-out;
+}
+
+.footer-text {
+  position: absolute;
+  font-size: 1rem;
+  bottom: 1rem;
+  color: #6b6ded;
 }

@@ -9,7 +9,6 @@ import ImageList from "./components/ImageList";
 function App() {
   const URL = "https://api.giphy.com/v1/gifs/search";
   const key = process.env.REACT_APP_API_KEY;
-  console.log(key)
   const limit = 9;
 
   const [images, setImages] = useState([]);
@@ -45,10 +44,12 @@ function App() {
       <div className="navigator_container">
         <div className="navigator_container-content">
         <SearchBar onSubmit={handleSubmit} />
-        <br/>
         <ImageList images={images} />
         </div>
       </div>
+      <p
+      className="footer-text">@Raisitae</p>
+      
     </div>
   );
 }
